@@ -20,7 +20,7 @@
     "scripts": {
         "lint": "jshint lib",
         "test": "mocha",
-        "prepublish": "node ./scripts/generateTestFiles.js"
+        "prepare": "node ./scripts/generateTestFiles.js"
     },
     "dependencies": {
         "mocha": "^7.0.1",
